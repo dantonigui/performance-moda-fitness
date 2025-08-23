@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 120vh;
+    background-color: #63A1A3; /*ver tom de cor */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center;
+    width: 70vw;  /*perguntar para mariana*/
+
+    height: 40rem;
+}
+
+ul {
+    background-color: #63A1A3;
+    border: 2px solid white;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+li > a{
+    border: 1px solid white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    height: 2.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+a > i {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+
+#img-profile {
+    height: 60%;
+    border-radius: 50%;
+}
